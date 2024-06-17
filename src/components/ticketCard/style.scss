@@ -1,0 +1,41 @@
+@import '@constants/colors';
+
+.ticket-card{
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+    border: 1px #E3E5E5 solid;
+    border-radius: 15px;
+    padding: 16px;
+    row-gap: 19px;
+}
+
+.ticket-card__time-info{
+    display: flex;
+    justify-content: space-between;
+    color: $text-medium-color;
+}
+
+.ticket-card__film-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ticket-card__ticket-info{
+    display: flex;
+    justify-content: space-between;
+    color: $text-medium-color;
+}
+
+.film-info__film-name{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ticket-info__pay-status{
+    padding: 4px 12px;
+    background-color: #ECF9F2;
+    color: #4ECF53;
+    border-radius: 15px;
+}

@@ -1,0 +1,17 @@
+.star-rate {
+	display: flex;
+	column-gap: 5px;
+}
+
+.star-rate__star {
+	font: normal normal normal 24px/1 FontAwesome;
+	text-rendering: auto;
+
+	&::before {
+		content: '\f005';
+	}
+}
+
+.checked {
+	color: orange;
+}

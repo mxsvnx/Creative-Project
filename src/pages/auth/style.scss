@@ -1,0 +1,42 @@
+@import '@constants/colors';
+
+.auth {
+	display: flex;
+	flex-direction: column;
+	row-gap: 24px;
+	width: 350px;
+
+	.button {
+		margin: 16px 0;
+	}
+}
+
+.auth__header-text {
+	margin: 0;
+}
+
+.auth__subtitle-text {
+	margin: 0;
+	font-size: 16px;
+}
+
+.auth__resend-text--disabled {
+	color: $medium-color;
+	font-size: 14px;
+	margin: 0;
+}
+
+.auth__resend-text--enabled {
+	color: $dark-color;
+	font-size: 16px;
+	margin: 0;
+	align-self: center;
+	cursor: pointer;
+}
+
+.auth__input-error {
+	color: $error;
+	margin: -15px 0 0;
+	font-size: 12px;
+	font-weight: 700;
+}

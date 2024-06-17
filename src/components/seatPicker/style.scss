@@ -1,0 +1,69 @@
+@import '@constants/colors';
+
+.ticket-picker {
+	display: flex;
+	flex-direction: column;
+	width: min-content;
+	row-gap: 24px;
+	padding-bottom: 20px;
+}
+
+.ticket-picker__seats {
+	display: flex;
+	flex-direction: column;
+	row-gap: 24px;
+}
+
+.seats__row {
+	display: flex;
+	column-gap: 24px;
+	align-items: center;
+}
+
+.seats__seat {
+	font: normal normal normal 20px/1 FontAwesome;
+	text-rendering: auto;
+	transition: all 0.2s ease-out;
+
+	&::before {
+		content: '\f0c8';
+	}
+}
+
+.--BLOCKED {
+	color: $medium-color;
+}
+
+.--ECONOM,
+.--COMFORT {
+	color: $primary;
+}
+
+.seats__row-number {
+	font-size: 14px;
+	height: 20px;
+	font-weight: 600;
+}
+
+.screen__text {
+	font-size: 12px;
+	margin-bottom: 8px;
+}
+
+.screen__line {
+	background-color: $medium-color;
+	height: 4px;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.ticket-picker__screen {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.seats__row-text {
+	color: $text-medium-color;
+}

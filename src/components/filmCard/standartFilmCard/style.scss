@@ -1,0 +1,26 @@
+@import '@constants/colors';
+
+.film-card--standart {
+	display: flex;
+	width: 100%;
+	column-gap: 32px;
+}
+
+.film-card__cover--standart {
+	width: 300px;
+	height: auto;
+	background-size: cover;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+}
+
+.film-card__title--standart {
+	margin-top: -5px;
+	margin-bottom: 15px;
+	font-size: 32px;
+}
+
+.film-card__subtitle {
+	margin-top: 16px;
+}

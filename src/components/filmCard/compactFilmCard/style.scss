@@ -1,0 +1,27 @@
+@import '@constants/colors';
+
+.film-card--compact {
+	width: 300px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.film-card__cover--compact {
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+}
+
+.film-card__title--compact {
+	margin-top: 16px;
+	margin-bottom: 10px;
+}
+
+.film-card__rating--compact {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}

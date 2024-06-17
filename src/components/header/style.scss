@@ -1,0 +1,55 @@
+@import '@constants/colors';
+
+.header {
+	border-bottom: $medium-color 1px solid;
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 13%;
+	height: 75px;
+}
+
+.header__logo {
+	height: 40px;
+	margin-right: 32px;
+}
+
+.header__menu {
+	display: flex;
+	align-items: center;
+}
+
+.header__menu-list {
+	display: flex;
+	list-style: none;
+	column-gap: 32px;
+	margin: 0;
+}
+
+.header__button {
+	display: flex;
+	background-color: #fff;
+	border: none;
+	color: $dark-color;
+	column-gap: 16px;
+	font-size: 16px;
+	font-weight: 500;
+	justify-content: center;
+	align-items: center;
+}
+
+.header__menu-link {
+	font-weight: 600;
+}
+
+.button__text {
+	margin: 0;
+}
+
+.button__image {
+	width: 30px;
+	height: 30px;
+}
